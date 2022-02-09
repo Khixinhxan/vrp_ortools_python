@@ -61,8 +61,8 @@ Algorithm: Improved NNS+A-Interchage LS method
 Object: Lowest total distance
 
 7. VRP with Mixed and Selective Backhauls (VRPMSB)
-Algorithm: Search Space-Based Multi-Objective Evolutionary Algorithm (SSMOEA)
-Object: Lowest cost of route and optimize return route
+- Algorithm: Search Space-Based Multi-Objective Evolutionary Algorithm (SSMOEA)
+- Object: Lowest cost of route and optimize return route
 
 8. CVRP with Stochastic Demands (CVRPSD)
 Algorithm: Nearest Neighbor Searches (NNS) + Ant colony optimization algorithm (ACO) +2-opt (The main idea behind it is to take a route that crosses over itself and reorder it so that it does not)
