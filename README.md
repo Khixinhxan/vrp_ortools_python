@@ -1,6 +1,9 @@
 # Vehicle Routing Problem with Google OrTools
 The some customize Vehicle Routing Problem model with Google OrTools and Python 3.x
 
+# Linkedin documents
+https://www.linkedin.com/pulse/vehicle-routing-problem-google-or-tools-customized-hoai-dang-nguyen/?trackingId=RD1Pj53iSrWDDOFDwBn%2B5g%3D%3D
+
 # Google OrTools document 
 https://developers.google.com/optimization
 
