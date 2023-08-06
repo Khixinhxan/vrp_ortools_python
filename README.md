@@ -30,6 +30,7 @@ https://developers.google.com/optimization/routing
 14. Vehicle Route Problem Researching
 15. Vehicle Route Problem with Schedule
 16. Several Solution
+17. VRP with New Order
 
 # Data Matrix 
 I suggest data matrix (distance, duration matrix) by **Google Distance Matrix Service ** 
