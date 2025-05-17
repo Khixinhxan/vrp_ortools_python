@@ -1,17 +1,27 @@
-# Vehicle Routing Problem with Google OrTools
-The some customize Vehicle Routing Problem model with Google OrTools and Python 3.x
+# 🚚 Vehicle Routing Problem (VRP) with Google OR-Tools
 
-# Linkedin documents
-https://www.linkedin.com/pulse/vehicle-routing-problem-google-or-tools-customized-hoai-dang-nguyen/?trackingId=RD1Pj53iSrWDDOFDwBn%2B5g%3D%3D
+A collection of **customized Vehicle Routing Problem (VRP) models** using **Google OR-Tools** and **Python 3.x** for logistics, transportation, and delivery optimization.
 
-# Google OrTools document 
-https://developers.google.com/optimization
+> 📄 Detailed article on LinkedIn:  
+> [Vehicle Routing Problem with Google OR-Tools Customized](https://www.linkedin.com/pulse/vehicle-routing-problem-google-or-tools-customized-hoai-dang-nguyen)
 
+---
+
+## 💡 Overview
+
+This repository provides various VRP models with practical constraints and enhancements:
+- Cost, distance, and vehicle minimization.
+- Time windows, load/unload demands, depots, schedules, and more.
+- Enhanced heuristics and metaheuristics.
+
+---
+
+## 🔧 Quick Setup
+
+```bash
 # Install OR-Tools
 python -m pip install --upgrade --user ortools
-
-# Vehicle Routing Guildes 
-https://developers.google.com/optimization/routing
+```
 
 # Models
 1. Vehicle Route Problem basic (VRP)
@@ -33,12 +43,32 @@ https://developers.google.com/optimization/routing
 17. VRP with New Order
 
 # Data Matrix 
-I suggest data matrix (distance, duration matrix) by **Google Distance Matrix Service ** 
-https://developers.google.com/maps/documentation/javascript/examples/distance-matrix
+> 💡 **Tip:**  
+> It is recommended to prepare the data matrix (distance or duration) using the **[Google Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix)** for accurate and reliable results.
 
 # Document:
 A parallel insertion heuristic for vehicle routing with side constraints (M.W.P. Savelsbergh)
 https://core.ac.uk/download/pdf/192270417.pdf
+
+🔬 Advanced VRP Models for Research (Recommended)
+VRPB - Vehicle Routing Problem with Backhauls
+
+VRPBTW - VRP with Backhauls and Time Windows
+
+VRPMSB - VRP with Mixed and Selective Backhauls
+
+CVRPSD - CVRP with Stochastic Demands
+
+HFVRP - Heterogeneous Fleet VRP
+
+MOVRPTW - Multi-Objective VRP with Time Windows
+
+RVRP - Rich VRP with multiple constraints
+
+VRPSPDTW - VRP with Simultaneous Delivery, Pickup, and Time Windows
+
+WVRP - Weighted VRP
+
 
 
 # Other Vehicle Route Problem Models - Researching
